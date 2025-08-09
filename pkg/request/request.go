@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"git.eykj.cn/base/grpc/pkg/logger"
+	"github.com/yxserv/base/pkg/logger"
 
 	"github.com/cloudwego/hertz/pkg/app"
 )
@@ -155,7 +155,6 @@ func BuildQueryCondition(fields map[string]string) (string, []interface{}) {
 
 	return strings.Join(conditions, " "), args
 }
-
 
 // BindFields 根据字段列表绑定数据
 // 默认所有字段为字符串类型，如需其它类型在字段后添加:类型

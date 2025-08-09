@@ -16,7 +16,7 @@
 在你的项目中添加依赖：
 
 ```bash
-go mod edit -require git.eykj.cn/base/grpc@latest
+go mod edit -require github.com/yxserv/base@latest
 go mod tidy
 ```
 
@@ -26,8 +26,8 @@ go mod tidy
 
 ```go
 import (
-    "git.eykj.cn/base/grpc/model"
-    "git.eykj.cn/base/grpc/pkg/logger"
+    "github.com/yxserv/base/model"
+    "github.com/yxserv/base/pkg/logger"
 )
 
 func main() {
@@ -48,7 +48,7 @@ func main() {
 ### 3. 定义模型
 
 ```go
-import "git.eykj.cn/base/grpc/model"
+import "github.com/yxserv/base/model"
 
 type User struct {
     model.BaseModel
@@ -62,7 +62,7 @@ type User struct {
 
 ```go
 import (
-    "git.eykj.cn/base/grpc/service"
+    "github.com/yxserv/base/service"
 )
 
 type UserService struct {
@@ -84,7 +84,7 @@ func (s *UserService) GetUserByEmail(email string) (*User, error) {
 
 ```go
 import (
-    "git.eykj.cn/base/grpc/controller"
+    "github.com/yxserv/base/controller"
 )
 
 type UserController struct {
@@ -211,6 +211,6 @@ GET /user/get_ls?name=%张%&email=%@gmail.com
 当需要更新远程包时：
 
 ```bash
-go get -u git.eykj.cn/base/grpc
+go get -u github.com/yxserv/base
 go mod tidy
 ```

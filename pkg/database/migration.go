@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"git.eykj.cn/base/grpc/pkg/logger"
+	"github.com/yxserv/base/pkg/logger"
 )
 
 // MigrationConfig 迁移配置接口

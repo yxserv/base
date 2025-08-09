@@ -1,6 +1,6 @@
 package service
 
-import "git.eykj.cn/base/grpc/model"
+import "github.com/yxserv/base/model"
 
 // BaseService 基础服务接口
 type BaseService[T any] interface {

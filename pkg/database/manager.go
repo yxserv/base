@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"git.eykj.cn/base/grpc/model"
-	"git.eykj.cn/base/grpc/pkg/logger"
+	"github.com/yxserv/base/model"
+	"github.com/yxserv/base/pkg/logger"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

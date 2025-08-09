@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"strings"
 
-	"git.eykj.cn/base/grpc/pkg/logger"
-	"git.eykj.cn/base/grpc/pkg/request"
-	"git.eykj.cn/base/grpc/pkg/response"
-	"git.eykj.cn/base/grpc/service"
+	"github.com/yxserv/base/pkg/logger"
+	"github.com/yxserv/base/pkg/request"
+	"github.com/yxserv/base/pkg/response"
+	"github.com/yxserv/base/service"
 
 	"github.com/cloudwego/hertz/pkg/app"
 )

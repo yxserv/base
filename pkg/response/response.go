@@ -3,7 +3,7 @@ package response
 import (
 	"net/http"
 
-	"git.eykj.cn/base/grpc/pkg/logger"
+	"github.com/yxserv/base/pkg/logger"
 
 	"github.com/cloudwego/hertz/pkg/app"
 )

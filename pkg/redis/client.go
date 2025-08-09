@@ -3,7 +3,7 @@ package redis
 import (
 	"fmt"
 
-	"git.eykj.cn/base/grpc/pkg/logger"
+	"github.com/yxserv/base/pkg/logger"
 )
 
 // RedisClient Redis远程客户端

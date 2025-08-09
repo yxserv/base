@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"git.eykj.cn/base/grpc/pkg/logger"
+	"github.com/yxserv/base/pkg/logger"
 )
 
 // PerformanceMonitor 数据库性能监控器

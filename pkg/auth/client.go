@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"git.eykj.cn/base/grpc/pkg/logger"
+	"github.com/yxserv/base/pkg/logger"
 )
 
 // Claims JWT声明结构 - 保持与原有接口兼容

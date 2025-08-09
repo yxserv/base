@@ -1,4 +1,4 @@
-module git.eykj.cn/base/grpc
+module github.com/yxserv/base
 
 go 1.21
 

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"git.eykj.cn/base/grpc/pkg/logger"
 	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/yxserv/base/pkg/logger"
 )
 
 // Message 通用消息结构
